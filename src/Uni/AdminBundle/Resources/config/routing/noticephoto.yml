@@ -1,0 +1,31 @@
+noticephoto:
+    path:     /
+    defaults: { _controller: "UniAdminBundle:NoticePhoto:index" }
+    methods: [GET]
+
+noticephoto_show:
+    path:     /{id}/show
+    defaults: { _controller: "UniAdminBundle:NoticePhoto:show" }
+
+noticephoto_new:
+    path:     /new
+    defaults: { _controller: "UniAdminBundle:NoticePhoto:new" }
+
+noticephoto_create:
+    path:     /create
+    defaults: { _controller: "UniAdminBundle:NoticePhoto:create" }
+    methods: [POST]
+
+noticephoto_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "UniAdminBundle:NoticePhoto:edit" }
+
+noticephoto_update:
+    path:     /{id}/update
+    defaults: { _controller: "UniAdminBundle:NoticePhoto:update" }
+    methods: [POST|PUT]
+
+noticephoto_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "UniAdminBundle:NoticePhoto:delete" }
+    methods: [POST|DELETE]

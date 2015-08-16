@@ -1,0 +1,78 @@
+# All
+notification: Notificación
+createdAt: Fecha de Registro
+updatedAt: Última Actualización
+deletedAt: Fecha de Borrado
+Deleted records can not be recovered.: Los registros borrados no podrán ser recuperados.
+Are you sure?: ¿Está seguro?
+
+# All Buttons
+create: Registrar
+save: Guardar
+edit: Editar
+delete: Borrar
+confirm: Confirmar
+cancel: Cancelar
+back: Volver
+
+# ---------------------------------------------------------------
+
+# Member
+member: Miembro
+members: Miembros
+member_new: Nuevo Miembro
+member_show: Ver Miembro
+member_edit: Editar Miembro
+member_firstname: Nombre
+member_lastname: Apellido
+member_email: Email
+member_phonenumber: Teléfono
+member_birthdate: Fecha Nacimiento
+member_admissiondate: Fecha Ingreso
+member_active: Activo
+member_photo_file: Foto Perfil
+member_photo_path: Directorio
+member_role: Cargo Asignado
+Member has been created.: El miembro ha sido creado.
+Member has been updated.: El miembro ha sido actualizado.
+Member has been deleted.: El miembro ha sido borrado.
+
+# Cargos
+role: Cargo
+roles: Cargos
+role_new: Nuevo Cargo
+role_show: Ver Cargo
+role_edit: Editar Cargo
+role_name: Nombre
+role_rank: Rango
+Role has been created.: El cargo ha sido creado.
+Role has been updated.: El cargo ha sido actualizado.
+Role has been deleted.: El cargo ha sido borrado.
+
+# Usuarios
+user: Usuario
+users: Usuarios
+user_new: Nuevo Usuario
+user_show: Ver Usuario
+user_edit: Editar Usuario
+user_firstname: Nombre
+user_lastname: Apellido
+User has been created.: El usuario ha sido creado.
+User has been updated.: El usuario ha sido actualizado.
+User has been deleted.: El usuario ha sido borrado.
+
+# Notice
+notice: Noticia
+notices: Noticias
+notice_new: Nueva Noticia
+notice_show: Ver Noticia
+notice_edit: Editar Noticia
+notice_title: Título
+notice_content: Contenido
+notice_published: Publicada
+notice_photos: Fotos
+Notice has been created.: La noticia ha sido creada.
+Notice has been updated.: La noticia ha sido actualizada.
+Notice has been deleted.: La noticia ha sido borrada.
+
+
