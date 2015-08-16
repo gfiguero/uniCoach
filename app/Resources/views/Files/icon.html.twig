@@ -1,0 +1,11 @@
+{% block iconos %}
+    {% if app.request.attributes.get( '_route' ) starts with 'dashboard' %}{{ icon('dashboard fa-fw') }}
+    {% elseif app.request.attributes.get( '_route' ) starts with 'eventos' %}{{ icon('exclamation-circle fa-fw') }}
+    {% elseif app.request.attributes.get( '_route' ) starts with 'historias' %}{{ icon('book fa-fw') }}
+    {% elseif app.request.attributes.get( '_route' ) starts with 'member' %}{{ icon('group fa-fw') }}
+    {% elseif app.request.attributes.get( '_route' ) starts with 'role' %}{{ icon('sitemap fa-fw') }}
+    {% elseif app.request.attributes.get( '_route' ) starts with 'cursos' %}{{ icon('flag fa-fw') }}
+    {% elseif app.request.attributes.get( '_route' ) starts with 'notice' %}{{ icon('newspaper-o fa-fw') }}
+    {% elseif app.request.attributes.get( '_route' ) starts with 'user' %}{{ icon('user fa-fw') }}
+    {% endif %}
+{% endblock %}

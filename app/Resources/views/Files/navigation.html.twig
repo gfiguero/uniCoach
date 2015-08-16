@@ -1,0 +1,30 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top sticky" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ path('uni_page_index') }}">uniPage</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li {% if 'equipo' in app.request.attributes.get('_route') %}class="active"{% endif %} ><a class="page-scroll" href="#">Equipo</a></li>
+                <li {% if 'noticias' in app.request.attributes.get('_route') %}class="active"{% endif %} ><a class="page-scroll" href="#">Noticias</a></li>
+                <li {% if 'contacto' in app.request.attributes.get('_route') %}class="active"{% endif %} ><a class="page-scroll" href="#">Contacto</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Acceso</a></li>
+            </ul>
+
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
